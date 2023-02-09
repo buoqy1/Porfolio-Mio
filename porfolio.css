@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header ul li{
+    margin: 15px 0px;
+}
+
+header{
+    width:20%;
+}
+.nav{
+    position:fixed;
+    width:20% ;
+    height: 1008px;
+    font-size: 30px;
+    padding:15% 0px;
+    background-color: black;
+    text-align: center;
+}
+.nav li{
+    color: blueviolet;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between ;
+    height: 100%;
+    width: 60%;
+}
+.section{
+    background-color: blueviolet;
+    padding:200px 50px ;
+    height: 1080px;
+    width: 133.3%;
+}
+.section h1{
+    margin-top: 0px; ;
+    font-size: 70px;
+}
+.section h3{
+    font-size: 23px;
+    padding:30px 10px;
+}
+.social-media{
+    width: 20%;
+    height: 80px;
+    margin: 10px 30px;
+}
+.social-media-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-left:50px ;
+}
+.social-media-container i {
+    color: white;
+}
+
+.social-media-container li{
+    font-size: 30px;
+}
+
+.descarga{
+    width: 24%;
+    text-align: center;
+}
+.buttom{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+    box-shadow: 1px 5px 8px black;
+}
+.descarga a .buttom{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    background-color: aquamarine;
+}
+
+
+
+.section-2{
+    padding:200px 0px 0px 50px;
+    background-color: blueviolet;
+    height: 1080px;
+    width: 133.3%;
+}
+.section-2 h1{
+    font-size: 70px;
+}
+.section-2 p{
+    line-height: 30px;
+    width: 60%;
+    font-size: 23px;
+    padding:30px 10px;
+}
+
+.section-3{
+    padding:200px 0px 0px 50px;
+    background-color: blueviolet;
+    height: 1080px;
+    width: 133.3%;
+}
+.section-3 h1{
+    font-size: 70px;
+}
+.section-3 h3{
+    font-size: 23px;
+    padding:30px 10px;
+}
+.proyecto-container{
+    width: 60%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.proyecto-container div{
+    padding: 30px;
+}
+.proyecto-container a {
+    border: 1px solid red;
+}
+
+.proyecto-container img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.section-4{
+    padding:200px 0px 0px 50px;
+    background-color: blueviolet;
+    height: 1080px;
+    width: 133.3%;
+}
+.section-4 h1{
+    font-size: 70px;
+}
+.section-4 h3{
+    font-size: 23px;
+    padding:30px 10px;
+}
